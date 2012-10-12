@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SLMessaging_iOS_Example/SoftLayerMessaging_iOS_Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SLMessaging_iOS/SoftLayerMessaging_iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SoftLayerMessaging/SoftLayerMessaging.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SoftLayerMessaging/../SoftLayerMessaging_MacOSX_Example/SoftLayerMessaging_MacOSX_Example.xcodeproj">
+   </FileRef>
+</Workspace>

@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		206277501628ABF300326189 /* libSoftLayerMessaging_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2062774F1628ABF300326189 /* libSoftLayerMessaging_iOS.a */; };
+		20A698071625FC040052937D /* ApplicationWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20A698061625FC040052937D /* ApplicationWindow.xib */; };
+		20F1B73D161B7A6C00072B75 /* SLMessagingQueueList.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B73B161B7A6C00072B75 /* SLMessagingQueueList.m */; };
+		20F1B75F161B87F300072B75 /* SLMessageQueueDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B75D161B87F300072B75 /* SLMessageQueueDetailViewController.m */; };
+		20F1B760161B87F300072B75 /* SLMessageQueueDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F1B75E161B87F300072B75 /* SLMessageQueueDetailViewController.xib */; };
+		D233EEF215FFB15F004CF56D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D233EEF115FFB15F004CF56D /* UIKit.framework */; };
+		D233EEF415FFB15F004CF56D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D233EEF315FFB15F004CF56D /* Foundation.framework */; };
+		D233EEF615FFB15F004CF56D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D233EEF515FFB15F004CF56D /* CoreGraphics.framework */; };
+		D233EEFC15FFB15F004CF56D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D233EEFA15FFB15F004CF56D /* InfoPlist.strings */; };
+		D233EEFE15FFB15F004CF56D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D233EEFD15FFB15F004CF56D /* main.m */; };
+		D233EF0215FFB15F004CF56D /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D233EF0115FFB15F004CF56D /* SLAppDelegate.m */; };
+		D2F0DFB31603C15200E33CEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2F0DFB21603C15200E33CEC /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2062774F1628ABF300326189 /* libSoftLayerMessaging_iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSoftLayerMessaging_iOS.a; path = "libSoftLayerMessaging_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A698061625FC040052937D /* ApplicationWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationWindow.xib; sourceTree = "<group>"; };
+		20F1B73A161B7A6C00072B75 /* SLMessagingQueueList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMessagingQueueList.h; sourceTree = "<group>"; };
+		20F1B73B161B7A6C00072B75 /* SLMessagingQueueList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMessagingQueueList.m; sourceTree = "<group>"; };
+		20F1B75C161B87F300072B75 /* SLMessageQueueDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMessageQueueDetailViewController.h; sourceTree = "<group>"; };
+		20F1B75D161B87F300072B75 /* SLMessageQueueDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMessageQueueDetailViewController.m; sourceTree = "<group>"; };
+		20F1B75E161B87F300072B75 /* SLMessageQueueDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLMessageQueueDetailViewController.xib; sourceTree = "<group>"; };
+		D233EEED15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftLayerMessaging_iOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D233EEF115FFB15F004CF56D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D233EEF315FFB15F004CF56D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D233EEF515FFB15F004CF56D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D233EEF915FFB15F004CF56D /* SoftLayerMessaging_iOS_Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftLayerMessaging_iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		D233EEFB15FFB15F004CF56D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D233EEFD15FFB15F004CF56D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D233EEFF15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftLayerMessaging_iOS_Example-Prefix.pch"; sourceTree = "<group>"; };
+		D233EF0015FFB15F004CF56D /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		D233EF0115FFB15F004CF56D /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		D2F0DFB21603C15200E33CEC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D233EEEA15FFB15F004CF56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206277501628ABF300326189 /* libSoftLayerMessaging_iOS.a in Frameworks */,
+				D233EEF215FFB15F004CF56D /* UIKit.framework in Frameworks */,
+				D233EEF415FFB15F004CF56D /* Foundation.framework in Frameworks */,
+				D233EEF615FFB15F004CF56D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D233EEE215FFB15F004CF56D = {
+			isa = PBXGroup;
+			children = (
+				D2F0DFB21603C15200E33CEC /* Default-568h@2x.png */,
+				D233EF1215FFB2E5004CF56D /* Dependencies */,
+				D233EEF715FFB15F004CF56D /* SLMessaging_iOS_Example */,
+				D233EEF015FFB15F004CF56D /* Frameworks */,
+				D233EEEE15FFB15F004CF56D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D233EEEE15FFB15F004CF56D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D233EEED15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D233EEF015FFB15F004CF56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D233EEF115FFB15F004CF56D /* UIKit.framework */,
+				D233EEF315FFB15F004CF56D /* Foundation.framework */,
+				D233EEF515FFB15F004CF56D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D233EEF715FFB15F004CF56D /* SLMessaging_iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D233EF0015FFB15F004CF56D /* SLAppDelegate.h */,
+				D233EF0115FFB15F004CF56D /* SLAppDelegate.m */,
+				20A698061625FC040052937D /* ApplicationWindow.xib */,
+				D233EEF815FFB15F004CF56D /* Supporting Files */,
+				20F1B73A161B7A6C00072B75 /* SLMessagingQueueList.h */,
+				20F1B73B161B7A6C00072B75 /* SLMessagingQueueList.m */,
+				20F1B75C161B87F300072B75 /* SLMessageQueueDetailViewController.h */,
+				20F1B75D161B87F300072B75 /* SLMessageQueueDetailViewController.m */,
+				20F1B75E161B87F300072B75 /* SLMessageQueueDetailViewController.xib */,
+			);
+			path = SLMessaging_iOS_Example;
+			sourceTree = "<group>";
+		};
+		D233EEF815FFB15F004CF56D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D233EEFA15FFB15F004CF56D /* InfoPlist.strings */,
+				D233EEFD15FFB15F004CF56D /* main.m */,
+				D233EEF915FFB15F004CF56D /* SoftLayerMessaging_iOS_Example-Info.plist */,
+				D233EEFF15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D233EF1215FFB2E5004CF56D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				2062774F1628ABF300326189 /* libSoftLayerMessaging_iOS.a */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D233EEEC15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D233EF0515FFB15F004CF56D /* Build configuration list for PBXNativeTarget "SoftLayerMessaging_iOS_Example" */;
+			buildPhases = (
+				D233EEE915FFB15F004CF56D /* Sources */,
+				D233EEEA15FFB15F004CF56D /* Frameworks */,
+				D233EEEB15FFB15F004CF56D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftLayerMessaging_iOS_Example;
+			productName = SLMessaging_iOS_Example;
+			productReference = D233EEED15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D233EEE415FFB15F004CF56D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "SoftLayer Technologies, Inc.";
+			};
+			buildConfigurationList = D233EEE715FFB15F004CF56D /* Build configuration list for PBXProject "SoftLayerMessaging_iOS_Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D233EEE215FFB15F004CF56D;
+			productRefGroup = D233EEEE15FFB15F004CF56D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D233EEEC15FFB15F004CF56D /* SoftLayerMessaging_iOS_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D233EEEB15FFB15F004CF56D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D233EEFC15FFB15F004CF56D /* InfoPlist.strings in Resources */,
+				D2F0DFB31603C15200E33CEC /* Default-568h@2x.png in Resources */,
+				20F1B760161B87F300072B75 /* SLMessageQueueDetailViewController.xib in Resources */,
+				20A698071625FC040052937D /* ApplicationWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D233EEE915FFB15F004CF56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D233EEFE15FFB15F004CF56D /* main.m in Sources */,
+				D233EF0215FFB15F004CF56D /* SLAppDelegate.m in Sources */,
+				20F1B73D161B7A6C00072B75 /* SLMessagingQueueList.m in Sources */,
+				20F1B75F161B87F300072B75 /* SLMessageQueueDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D233EEFA15FFB15F004CF56D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D233EEFB15FFB15F004CF56D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D233EF0315FFB15F004CF56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D233EF0415FFB15F004CF56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D233EF0615FFB15F004CF56D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLMessaging_iOS_Example/SoftLayerMessaging_iOS_Example-Prefix.pch";
+				INFOPLIST_FILE = "SLMessaging_iOS_Example/SoftLayerMessaging_iOS_Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = SoftLayerMessaging_iOS_Example;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D233EF0715FFB15F004CF56D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLMessaging_iOS_Example/SoftLayerMessaging_iOS_Example-Prefix.pch";
+				INFOPLIST_FILE = "SLMessaging_iOS_Example/SoftLayerMessaging_iOS_Example-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = SoftLayerMessaging_iOS_Example;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D233EEE715FFB15F004CF56D /* Build configuration list for PBXProject "SoftLayerMessaging_iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D233EF0315FFB15F004CF56D /* Debug */,
+				D233EF0415FFB15F004CF56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D233EF0515FFB15F004CF56D /* Build configuration list for PBXNativeTarget "SoftLayerMessaging_iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D233EF0615FFB15F004CF56D /* Debug */,
+				D233EF0715FFB15F004CF56D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D233EEE415FFB15F004CF56D /* Project object */;
+}

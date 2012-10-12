@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200E406F16237D8B003E618F /* NSArray+BlockOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 200E406E16237D8B003E618F /* NSArray+BlockOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F1B789161CD7B100072B75 /* NSURL+SLQueryString.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F1B787161CD7B100072B75 /* NSURL+SLQueryString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F1B78A161CD7B100072B75 /* NSURL+SLQueryString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B788161CD7B100072B75 /* NSURL+SLQueryString.m */; };
+		20F1B79C161F591200072B75 /* SoftLayerMessaging.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F1B79B161F580900072B75 /* SoftLayerMessaging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F1B7AA161F786800072B75 /* SLMessagingSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F1B7A8161F786700072B75 /* SLMessagingSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F1B7AB161F786800072B75 /* SLMessagingSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F1B7A9161F786800072B75 /* SLMessagingSubscription.m */; };
+		AD12DEBC1603B50300099CF5 /* SLMessagingTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = AD12DEBA1603B50300099CF5 /* SLMessagingTopic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD12DEBD1603B50300099CF5 /* SLMessagingTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = AD12DEBB1603B50300099CF5 /* SLMessagingTopic.m */; };
+		D233EEDD15FF92F7004CF56D /* SLJSONRestResource.m in Sources */ = {isa = PBXBuildFile; fileRef = D233EEDC15FF92F7004CF56D /* SLJSONRestResource.m */; };
+		D233EF0D15FFB29A004CF56D /* SLMessagingClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D23C8B0915FA81B3002C6F41 /* SLMessagingClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D233EF1915FFB7A4004CF56D /* SLCancelableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D233EF1815FFB7A4004CF56D /* SLCancelableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D233EF771600E43B004CF56D /* NSArray+BlockOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = D233EF751600E43A004CF56D /* NSArray+BlockOperations.m */; };
+		D233EF7B1600E565004CF56D /* SLMessagingQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D233EF791600E565004CF56D /* SLMessagingQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D233EF7C1600E565004CF56D /* SLMessagingQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D233EF7A1600E565004CF56D /* SLMessagingQueue.m */; };
+		D23C8AD115FA7603002C6F41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C8AD015FA7603002C6F41 /* Foundation.framework */; };
+		D23C8B0B15FA81B3002C6F41 /* SLMessagingClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C8B0A15FA81B3002C6F41 /* SLMessagingClient.m */; };
+		D23C8B6D15FA9947002C6F41 /* SLHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C8B6915FA9947002C6F41 /* SLHTTPRequest.m */; };
+		D23C8B6E15FA9947002C6F41 /* SLRAMBasedDataStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23C8B6B15FA9947002C6F41 /* SLRAMBasedDataStrategy.m */; };
+		D250364B1613A6FA00F6D14A /* SLMessagingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D25036491613A6FA00F6D14A /* SLMessagingMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D250364C1613A6FA00F6D14A /* SLMessagingMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D250364A1613A6FA00F6D14A /* SLMessagingMessage.m */; };
+		D27E5591161237F800024F9C /* SLJSONRestResource.h in Headers */ = {isa = PBXBuildFile; fileRef = D27E5590161237F800024F9C /* SLJSONRestResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D23C8ACB15FA7603002C6F41 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		200E406E16237D8B003E618F /* NSArray+BlockOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+BlockOperations.h"; path = "../../SharedCode/NSArray+BlockOperations.h"; sourceTree = "<group>"; };
+		20F1B787161CD7B100072B75 /* NSURL+SLQueryString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+SLQueryString.h"; path = "../../SharedCode/NSURL+SLQueryString.h"; sourceTree = "<group>"; };
+		20F1B788161CD7B100072B75 /* NSURL+SLQueryString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SLQueryString.m"; path = "../../SharedCode/NSURL+SLQueryString.m"; sourceTree = "<group>"; };
+		20F1B79B161F580900072B75 /* SoftLayerMessaging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SoftLayerMessaging.h; path = ../../SharedCode/SoftLayerMessaging.h; sourceTree = "<group>"; };
+		20F1B7A8161F786700072B75 /* SLMessagingSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMessagingSubscription.h; path = ../../SharedCode/SLMessagingSubscription.h; sourceTree = "<group>"; };
+		20F1B7A9161F786800072B75 /* SLMessagingSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMessagingSubscription.m; path = ../../SharedCode/SLMessagingSubscription.m; sourceTree = "<group>"; };
+		AD12DEBA1603B50300099CF5 /* SLMessagingTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMessagingTopic.h; path = ../../SharedCode/SLMessagingTopic.h; sourceTree = "<group>"; };
+		AD12DEBB1603B50300099CF5 /* SLMessagingTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMessagingTopic.m; path = ../../SharedCode/SLMessagingTopic.m; sourceTree = "<group>"; };
+		D233EEDC15FF92F7004CF56D /* SLJSONRestResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLJSONRestResource.m; path = ../../SharedCode/SLJSONRestResource.m; sourceTree = "<group>"; };
+		D233EF1815FFB7A4004CF56D /* SLCancelableOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLCancelableOperation.h; path = ../../SharedCode/SLCancelableOperation.h; sourceTree = "<group>"; };
+		D233EF751600E43A004CF56D /* NSArray+BlockOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+BlockOperations.m"; path = "../../SharedCode/NSArray+BlockOperations.m"; sourceTree = "<group>"; };
+		D233EF791600E565004CF56D /* SLMessagingQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMessagingQueue.h; path = ../../SharedCode/SLMessagingQueue.h; sourceTree = "<group>"; };
+		D233EF7A1600E565004CF56D /* SLMessagingQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMessagingQueue.m; path = ../../SharedCode/SLMessagingQueue.m; sourceTree = "<group>"; };
+		D23C8ACD15FA7603002C6F41 /* libSoftLayerMessaging_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSoftLayerMessaging_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23C8AD015FA7603002C6F41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23C8AD415FA7603002C6F41 /* SoftLayerMessaging_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftLayerMessaging_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		D23C8AF215FA7F26002C6F41 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D23C8AF415FA7F26002C6F41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D23C8B0915FA81B3002C6F41 /* SLMessagingClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMessagingClient.h; path = ../../SharedCode/SLMessagingClient.h; sourceTree = "<group>"; };
+		D23C8B0A15FA81B3002C6F41 /* SLMessagingClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMessagingClient.m; path = ../../SharedCode/SLMessagingClient.m; sourceTree = "<group>"; };
+		D23C8B6515FA9947002C6F41 /* SLDataCollectionStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLDataCollectionStrategy.h; path = ../../SharedCode/SLDataCollectionStrategy.h; sourceTree = "<group>"; };
+		D23C8B6815FA9947002C6F41 /* SLHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLHTTPRequest.h; path = ../../SharedCode/SLHTTPRequest.h; sourceTree = "<group>"; };
+		D23C8B6915FA9947002C6F41 /* SLHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLHTTPRequest.m; path = ../../SharedCode/SLHTTPRequest.m; sourceTree = "<group>"; };
+		D23C8B6A15FA9947002C6F41 /* SLRAMBasedDataStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLRAMBasedDataStrategy.h; path = ../../SharedCode/SLRAMBasedDataStrategy.h; sourceTree = "<group>"; };
+		D23C8B6B15FA9947002C6F41 /* SLRAMBasedDataStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLRAMBasedDataStrategy.m; path = ../../SharedCode/SLRAMBasedDataStrategy.m; sourceTree = "<group>"; };
+		D23C8B7015FA9968002C6F41 /* NSError+SLUserCancelled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSError+SLUserCancelled.h"; path = "../../SharedCode/NSError+SLUserCancelled.h"; sourceTree = "<group>"; };
+		D23C8B7115FA9968002C6F41 /* NSError+SLUserCancelled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSError+SLUserCancelled.m"; path = "../../SharedCode/NSError+SLUserCancelled.m"; sourceTree = "<group>"; };
+		D25036491613A6FA00F6D14A /* SLMessagingMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLMessagingMessage.h; path = ../../SharedCode/SLMessagingMessage.h; sourceTree = "<group>"; };
+		D250364A1613A6FA00F6D14A /* SLMessagingMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLMessagingMessage.m; path = ../../SharedCode/SLMessagingMessage.m; sourceTree = "<group>"; };
+		D27E5590161237F800024F9C /* SLJSONRestResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLJSONRestResource.h; path = ../../SharedCode/SLJSONRestResource.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23C8ACA15FA7603002C6F41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C8AD115FA7603002C6F41 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D233EF2315FFC7FC004CF56D /* SLFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				200E406E16237D8B003E618F /* NSArray+BlockOperations.h */,
+				D233EF751600E43A004CF56D /* NSArray+BlockOperations.m */,
+				D23C8B7015FA9968002C6F41 /* NSError+SLUserCancelled.h */,
+				D23C8B7115FA9968002C6F41 /* NSError+SLUserCancelled.m */,
+				20F1B787161CD7B100072B75 /* NSURL+SLQueryString.h */,
+				20F1B788161CD7B100072B75 /* NSURL+SLQueryString.m */,
+				D233EF1815FFB7A4004CF56D /* SLCancelableOperation.h */,
+				D23C8B6515FA9947002C6F41 /* SLDataCollectionStrategy.h */,
+				D23C8B6815FA9947002C6F41 /* SLHTTPRequest.h */,
+				D23C8B6915FA9947002C6F41 /* SLHTTPRequest.m */,
+				D27E5590161237F800024F9C /* SLJSONRestResource.h */,
+				D233EEDC15FF92F7004CF56D /* SLJSONRestResource.m */,
+				D23C8B6A15FA9947002C6F41 /* SLRAMBasedDataStrategy.h */,
+				D23C8B6B15FA9947002C6F41 /* SLRAMBasedDataStrategy.m */,
+			);
+			name = SLFoundation;
+			sourceTree = "<group>";
+		};
+		D23C8AC215FA7603002C6F41 = {
+			isa = PBXGroup;
+			children = (
+				D23C8AD215FA7603002C6F41 /* SLMessaging_iOS */,
+				D23C8ACF15FA7603002C6F41 /* Frameworks */,
+				D23C8ACE15FA7603002C6F41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23C8ACE15FA7603002C6F41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23C8ACD15FA7603002C6F41 /* libSoftLayerMessaging_iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23C8ACF15FA7603002C6F41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23C8AD015FA7603002C6F41 /* Foundation.framework */,
+				D23C8AF215FA7F26002C6F41 /* SenTestingKit.framework */,
+				D23C8AF415FA7F26002C6F41 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23C8AD215FA7603002C6F41 /* SLMessaging_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D233EF2315FFC7FC004CF56D /* SLFoundation */,
+				D23C8B0915FA81B3002C6F41 /* SLMessagingClient.h */,
+				D23C8B0A15FA81B3002C6F41 /* SLMessagingClient.m */,
+				D25036491613A6FA00F6D14A /* SLMessagingMessage.h */,
+				D250364A1613A6FA00F6D14A /* SLMessagingMessage.m */,
+				D233EF791600E565004CF56D /* SLMessagingQueue.h */,
+				D233EF7A1600E565004CF56D /* SLMessagingQueue.m */,
+				20F1B7A8161F786700072B75 /* SLMessagingSubscription.h */,
+				20F1B7A9161F786800072B75 /* SLMessagingSubscription.m */,
+				AD12DEBA1603B50300099CF5 /* SLMessagingTopic.h */,
+				AD12DEBB1603B50300099CF5 /* SLMessagingTopic.m */,
+				20F1B79B161F580900072B75 /* SoftLayerMessaging.h */,
+				D23C8AD315FA7603002C6F41 /* Supporting Files */,
+			);
+			path = SLMessaging_iOS;
+			sourceTree = "<group>";
+		};
+		D23C8AD315FA7603002C6F41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23C8AD415FA7603002C6F41 /* SoftLayerMessaging_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D233EF0C15FFB27D004CF56D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D233EF0D15FFB29A004CF56D /* SLMessagingClient.h in Headers */,
+				D233EF1915FFB7A4004CF56D /* SLCancelableOperation.h in Headers */,
+				D233EF7B1600E565004CF56D /* SLMessagingQueue.h in Headers */,
+				AD12DEBC1603B50300099CF5 /* SLMessagingTopic.h in Headers */,
+				D27E5591161237F800024F9C /* SLJSONRestResource.h in Headers */,
+				D250364B1613A6FA00F6D14A /* SLMessagingMessage.h in Headers */,
+				20F1B789161CD7B100072B75 /* NSURL+SLQueryString.h in Headers */,
+				20F1B79C161F591200072B75 /* SoftLayerMessaging.h in Headers */,
+				20F1B7AA161F786800072B75 /* SLMessagingSubscription.h in Headers */,
+				200E406F16237D8B003E618F /* NSArray+BlockOperations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D23C8ACC15FA7603002C6F41 /* SoftLayerMessaging_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23C8ADB15FA7603002C6F41 /* Build configuration list for PBXNativeTarget "SoftLayerMessaging_iOS" */;
+			buildPhases = (
+				D233EF0C15FFB27D004CF56D /* Headers */,
+				D23C8AC915FA7603002C6F41 /* Sources */,
+				D23C8ACA15FA7603002C6F41 /* Frameworks */,
+				D23C8ACB15FA7603002C6F41 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftLayerMessaging_iOS;
+			productName = SLMessaging_iOS;
+			productReference = D23C8ACD15FA7603002C6F41 /* libSoftLayerMessaging_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23C8AC415FA7603002C6F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "SoftLayer Technologies, Inc.";
+			};
+			buildConfigurationList = D23C8AC715FA7603002C6F41 /* Build configuration list for PBXProject "SoftLayerMessaging_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D23C8AC215FA7603002C6F41;
+			productRefGroup = D23C8ACE15FA7603002C6F41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23C8ACC15FA7603002C6F41 /* SoftLayerMessaging_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23C8AC915FA7603002C6F41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23C8B0B15FA81B3002C6F41 /* SLMessagingClient.m in Sources */,
+				D23C8B6D15FA9947002C6F41 /* SLHTTPRequest.m in Sources */,
+				D23C8B6E15FA9947002C6F41 /* SLRAMBasedDataStrategy.m in Sources */,
+				D233EEDD15FF92F7004CF56D /* SLJSONRestResource.m in Sources */,
+				D233EF771600E43B004CF56D /* NSArray+BlockOperations.m in Sources */,
+				D233EF7C1600E565004CF56D /* SLMessagingQueue.m in Sources */,
+				AD12DEBD1603B50300099CF5 /* SLMessagingTopic.m in Sources */,
+				D250364C1613A6FA00F6D14A /* SLMessagingMessage.m in Sources */,
+				20F1B78A161CD7B100072B75 /* NSURL+SLQueryString.m in Sources */,
+				20F1B7AB161F786800072B75 /* SLMessagingSubscription.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D23C8AD915FA7603002C6F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D23C8ADA15FA7603002C6F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23C8ADC15FA7603002C6F41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SLMessaging_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLMessaging_iOS/SoftLayerMessaging_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "SoftLayerMessaging.$(WRAPPER_EXTENSION)/PrivateHeaders";
+				PRODUCT_NAME = SoftLayerMessaging_iOS;
+				PUBLIC_HEADERS_FOLDER_PATH = "SoftLayerMessaging.$(WRAPPER_EXTENSION)/Headers";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		D23C8ADD15FA7603002C6F41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SLMessaging_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SLMessaging_iOS/SoftLayerMessaging_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "SoftLayerMessaging.$(WRAPPER_EXTENSION)/PrivateHeaders";
+				PRODUCT_NAME = SoftLayerMessaging_iOS;
+				PUBLIC_HEADERS_FOLDER_PATH = "SoftLayerMessaging.$(WRAPPER_EXTENSION)/Headers";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23C8AC715FA7603002C6F41 /* Build configuration list for PBXProject "SoftLayerMessaging_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23C8AD915FA7603002C6F41 /* Debug */,
+				D23C8ADA15FA7603002C6F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23C8ADB15FA7603002C6F41 /* Build configuration list for PBXNativeTarget "SoftLayerMessaging_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23C8ADC15FA7603002C6F41 /* Debug */,
+				D23C8ADD15FA7603002C6F41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23C8AC415FA7603002C6F41 /* Project object */;
+}
